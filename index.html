@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html data-wf-domain="www.yichenxie.com" data-wf-page="5f4ebc6259f25df68f07aa7e" data-wf-site="5df3776e014f2458a4afac9c">
 <head>
@@ -62,7 +63,7 @@
         <div class="gallery-container">
             <div class="div-block-265">
                 <div class="text-block-69">Shammah Ugbebor<br/></div>
-                <div class="text-block-73"> is a Human Machine Interface Designer in a Robotic Company, <br>Product (UI/UX) Designer, <br>AI and Web 3 Designer, <br> with Frontend Development Basic Knowledge</div>
+                <div class="text-block-73">Human Machine Interface Designer in a Robotic Company<br>Product (UI/UX) Designer <br>AI and Web 3 Design <br>Frontend Development Basic Knowledge</div>
                 
             </div>
 
@@ -76,12 +77,6 @@
             <img src="https://cdn.prod.website-files.com/5df3776e014f2458a4afac9c/5df700fd6a31d5e5df436ea9_arrowdown.svg" loading="lazy" width="116" alt="" class="image-119"/>
         </div>
     </div>
-
-
- <!-- Second section, image -->
-<div class="responsive-image-container">
-    <img src="images/7f761869-f3d9-44cb-a327-db7259c277fa.jpeg" alt="Section image" class="responsive-image">
-</div>
 
     <!-- case studies -->
  
@@ -195,33 +190,19 @@ data-fluid-engine-section
             padding: 0;
             box-sizing: border-box;
             font-family: Arial, sans-serif;
-            scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE and Edge */
-}
-*::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, Opera */
-
-           
         }
-
-
 
         body {
             background-color: #f8f8f8;
-    color: #333;
-    line-height: 1.6;
-    padding: 0;
-    overflow-x: hidden;
-    overflow-y: auto; /* or hidden if you want to prevent vertical scrolling */
-    height: 100%;
-    margin: 0;
-
+            color: #333;
+            line-height: 1.6;
+            /* Add padding to the entire body if you want space all around */
+            padding: 0;
         }
 
         /* Container with reduced width and centered */
         .container {
             max-width: 1000px; /* Reduced from 1200px to create more side space */
-            min-height: 100vh;
             margin: 0 auto; /* This centers the container */
             padding: 0; /* Increased side padding */
             width: 85%; /* This makes the container take up only 85% of the viewport width */
@@ -279,25 +260,6 @@ data-fluid-engine-section
             width: 100%;
         height: auto;
         }
-
-        .text-block-69 {
-            padding: 12px;
-        }
-
-        .text-block-73 {
-            padding: auto;
-            width: 450px;
-            margin-right: 30px;
-        }
-    }
-
-        /* Small mobile devices */
-        @media screen and (max-width: 480px) {
-       .text-block-73{
-        width: 350px;
-        margin-right: 10px;
-        padding: 14px;
-       }
     }
     
     /* Animations */
@@ -384,7 +346,7 @@ data-fluid-engine-section
     /* Mobile responsiveness */
     @media screen and (max-width: 768px) {
         .responsive-image-container {
-            max-height: auto; /* Reduced height for mobile */
+            max-height: 100%; /* Reduced height for mobile */
             overflow: hidden;
         }
     }
@@ -401,24 +363,21 @@ data-fluid-engine-section
         /* Projects grid */
         .projects-grid {
             display: flex;
-            overflow: hidden;
             flex-wrap: wrap;
             gap: 100px; /* Increased gap between projects */
-            padding: 30px, 0 ;
-            margin-top: 20px;
-            margin-bottom: 50px;
-            margin-left: 30px;
+            padding: 60px, 0 ;
+            margin-top: 40px;
+            margin-bottom: 120px;
+            margin-left: 50px;
             margin-right: 50px;
         }
 
         /* Project card */
         .project-card {
             flex: 1;
-            min-width: 420px;
-            margin-bottom: 5px;
-            padding: 15px 0;
-            overflow: visible; /* Make sure content isn't cut off */
-            height: auto; /* Allow height to expand */
+            min-width: 300px;
+            margin-bottom: 100px;
+            padding: 30px 0;
 
         }
 
@@ -432,7 +391,7 @@ data-fluid-engine-section
 
         .project-image img {
             width: 100%;
-            height: 65%;
+            height: 100%;
             object-fit: cover;
             transition: transform 0.3s ease;
         }
@@ -445,7 +404,7 @@ data-fluid-engine-section
             font-size: 14px;
             font-weight: bold;
             margin-bottom: 5px;
-            margin-top: 10px;
+            margin-top: 40px;
         }
 
         .project-category {
@@ -470,7 +429,6 @@ data-fluid-engine-section
         @media (max-width: 768px) {
             .projects-grid {
                 flex-direction: column;
-                gap: 20px; /* Increased gap between projects */
             }
             
             .project-card {
@@ -478,25 +436,14 @@ data-fluid-engine-section
             }
             
             .container {
-                width: 100%; /* Less side space on mobile */
-                padding: 2px;
-                overflow: hidden;
+                width: 95%; /* Less side space on mobile */
+                padding: 20px;
             }
             
             body {
                 padding: 0 10px; /* Less body padding on mobile */
-                overflow: hidden;
             }
         }
-
-
-
-            /* Small mobile devices */
-    @media screen and (max-width: 480px) {
-       .projects-grid {
-        margin-right: 30px;
-       }
-    }
     </style>
 
 
@@ -507,10 +454,10 @@ data-fluid-engine-section
             <!-- Project 1 -->
             <div class="project-card">
                 <a href="casestudy2.html" class="project-image">
-                    <img src="images/palletizer_1.gif" alt="palletizer system design">
+                    <img src="images/palletizer_1.gif" alt="AR Inclusive Game">
                 </a>
                 <div class="project-number">01 | USER Experience DESIGNER • RESEARCH • ROBOTIC INTERFACE • USER TESTING</div>
-                <h2 class="project-title">Palletizer System Software</h2>
+                <h2 class="project-title">AR Inclusive Game</h2>
                 <p class="project-description">The Orangewood Palletizer System project aimed to design a robust and 
                     user-friendly software interface for managing and optimizing palletizer operations.</p>
             </div>
@@ -542,8 +489,7 @@ data-fluid-engine-section
               </a>
               <div class="project-number">03 | PRODUCT Designer • Research & webpage </div>
               <h2 class="project-title">BunchPay (Fintech Product)</h2>
-              <p class="project-description">Bunchpay (B2C) and Paysub (B2B) product for users to buy and pay bills for personal and 
-                company use</p>
+              <p class="project-description">Bunchpay (B2C) and Paysub (B2B) product for users to buy and pay bills for personal and company use</p>
           </div>
           
           <!-- Project 4 -->
@@ -567,7 +513,7 @@ data-fluid-engine-section
                 <a href="https://www.behance.net/gallery/164089323/Art-auction-app" class="project-image">
                     <img src="images/Behance 1877.png" alt="AR Inclusive Game">
                 </a>
-                <div class="project-number">05 | UI/UX Design • Personal Project • AR & VR </div>
+                <div class="project-number">03 | UI/UX Design • Personal Project • AR & VR </div>
                 <h2 class="project-title">Artsy</h2>
                 <p class="project-description">An art app is a digital platform that provides artists and art enthusiasts with a new way to create, discover, and share art. The goal of this project is to create an intuitive and user-friendlyapp that can cater to the needs of a diverse range of users, including professional artists, amateurartists, and art lovers.</p>
             </div>
@@ -577,7 +523,7 @@ data-fluid-engine-section
                 <a href="https://www.behance.net/gallery/204451031/MarketCab-ecommerce" class="project-image">
                     <img src="images/Cover Page.png" alt="New Connected Learning in AR">
                 </a>
-                <div class="project-number">06 | PRODUCT DESIGN • User and Market Research • Ecommerce </div>
+                <div class="project-number">04 | PRODUCT DESIGN • User and Market Research • Ecommerce </div>
                 <h2 class="project-title">MarketCab</h2>
                 <p class="project-description">MarketCab aims to revolutionize the ecommerce and delivery experience in Canada by developing three distinct applications tailored for users, sellers, and drivers.</p>
             </div>
@@ -589,167 +535,420 @@ data-fluid-engine-section
 
 
 
+
+
+<!-- Testimonial section -->
+
+
+<section class="testimonial-section">
+    <div class="testimonial-heading">
+      <h2>What People Say</h2>
+      <p>Testimonials from clients and colleagues</p>
+    </div>
+    
+    <div class="testimonial-slider">
+      <div class="testimonial-container" id="testimonialsContainer">
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            Working with this designer was nothing short of transformative for our brand. 
+            Her exceptional eye for detail and innovative approach to problem-solving resulted in 
+            designs that not only captured our vision perfectly but exceeded our expectations in every way. 
+            What truly sets her apart is her ability to translate complex ideas into clean, intuitive designs 
+            that resonate deeply with our target audience. Her design solutions drove a 42% increase in user engagement 
+            within just three months of implementation.
+          </div>
+          <div class="testimonial-author">
+            <img src="images/1699212476234.jpg" alt="Sarah Johnson" class="author-image">
+            <div class="author-info">
+              <h4>Opeyemi Oluwadare</h4>
+              <p>CEO, White Axix</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            I've collaborated with many designers throughout my career, but none have demonstrated the perfect balance of 
+            creativity and strategic thinking like this designer. She don't just create beautiful visuals—they create meaningful 
+            experiences that drive business results. Their collaborative approach made our project feel like a true partnership, 
+            and their ability to adapt to feedback while maintaining the integrity of the design was remarkable. 
+            The final deliverables were so impressive that we immediately brought them on for three additional projects.
+          </div>
+          <div class="testimonial-author">
+            <img src="images/1731137629350.jpg" alt="Michael Chen" class="author-image">
+            <div class="author-info">
+              <h4>Odii Chinedum</h4>
+              <p>Cheif Operating Officer, BunchPay</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            What impressed me most was their unique combination of technical expertise and creative vision. 
+            She didn't just deliver stunning designs—they provided thoughtful solutions that addressed our core business challenges. 
+            Her user-centered approach and deep understanding of our industry resulted in a redesign that not only looked beautiful 
+            but increased our conversion rate by 38%. Beyond their professional skills,
+            dedicated, and genuinely invested in our success. I cannot recommend them highly enough.
+          </div>
+          <div class="testimonial-author">
+            <img src="images/1601386355396.jpg" alt="Alicia Rodriguez" class="author-image">
+            <div class="author-info">
+              <h4>Akash Bansal</h4>
+              <p>C0-Founder, Orangewood Lab </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <button class="nav-button prev-button" id="prevBtn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#3182ce">
+          <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+        </svg>
+      </button>
+      
+      <button class="nav-button next-button" id="nextBtn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#3182ce">
+          <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+        </svg>
+      </button>
+    </div>
+    
+    <div class="nav-dots" id="dotsContainer">
+      <div class="dot active"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+  </section>
+  
+  <style>
+    .testimonial-section {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      font-family: 'Inter', sans-serif;
+    }
+    
+    .testimonial-heading {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #2d3748;
+    }
+    
+    .testimonial-heading h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    
+    .testimonial-heading p {
+      font-size: 1.1rem;
+      color: #718096;
+    }
+    
+    .testimonial-slider {
+      position: relative;
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+    
+    .testimonial-container {
+      display: flex;
+      transition: transform 0.5s ease;
+    }
+    
+    .testimonial-card {
+      min-width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 40px;
+      background: linear-gradient(145deg, #ffffff, #f8fafc);
+    }
+    
+    .testimonial-content {
+      margin-bottom: 30px;
+      font-size: 1.2rem;
+      line-height: 1.6;
+      color: #4a5568;
+      font-style: italic;
+    }
+    
+    .testimonial-content::before {
+      content: '"';
+      font-size: 4rem;
+      line-height: 0;
+      opacity: 0.3;
+      margin-right: 10px;
+      vertical-align: -30px;
+    }
+    
+    .testimonial-author {
+      display: flex;
+      align-items: center;
+    }
+    
+    .author-image {
+      width: 65px;
+      height: 65px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 15px;
+      border: 3px solid #3182ce;
+    }
+    
+    .author-info h4 {
+      margin: 0;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #2d3748;
+    }
+    
+    .author-info p {
+      margin: 5px 0 0;
+      color: #718096;
+      font-size: 0.9rem;
+    }
+    
+    .nav-button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #ffffff;
+      border: none;
+      box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.3s ease;
+      z-index: 2;
+    }
+    
+    .nav-button:hover {
+      background-color: #3182ce;
+    }
+    
+    .nav-button:hover svg {
+      fill: white;
+    }
+    
+    .prev-button {
+      left: 20px;
+    }
+    
+    .next-button {
+      right: 20px;
+    }
+    
+    .nav-dots {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: #e2e8f0;
+      margin: 0 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .dot.active {
+      background-color: #3182ce;
+    }
+  
+    @media (max-width: 768px) {
+      .testimonial-card {
+        padding: 25px;
+      }
+      
+      .testimonial-content {
+        font-size: 1rem;
+      }
+      
+      .nav-button {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  </style>
+
+
+
 <!-- Articles-->
 
 <!-- Articles Section -->
 <section class="articles-section">
-  <div class="articles-container">
-    <div class="article-header">
-      <h2>Article Links</h2>
+    <div class="articles-container">
+      <div class="article-header">
+        <h2>Article Links</h2>
+      </div>
+      
+      <p class="article-intro">
+        I am passionate about writing on design, career growth, and my personal values. Each piece I write is crafted with care and intention, reflecting my commitment to making a positive impact in the design community and beyond.
+      </p>
+      
+     <a href="https://medium.com/@ugbeborshammah08/laws-of-ux-but-in-stories-part-1-03e9cd76e17d?source=user_profile_page---------5-------------a96075f258ee----------------------" class="article-link">
+      <div class="article-card">
+          <div class="article-content">
+            <div class="article-title">Laws of UX : But in stories (part 1)</div>
+            <div class="article-summary">
+              A law can be defined as a binding custom or practice of a community, in this case, the UX community.
+              <br><br>
+              We will be talking about some of the laws of UX in this part in the simplest real life stories, that will make you never forget any law of UX again for next time you are designing, are you ready?
+            </div>
+          </div>
+          <div class="arrow-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <path d="M9 18L15 12L9 6" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </div>
+        </div>
+     </a>
+      
+     <a href="https://medium.com/@ugbeborshammah08/you-are-not-designing-for-you-b631291eb113?source=user_profile_page---------1-------------a96075f258ee----------------------" class="article-link">
+      <div class="article-card">
+          <div class="article-content">
+            <div class="article-title">You are not designing for you!</div>
+            <div class="article-summary">
+              Do you want your designs to not just be used by your users but loved?
+              The success of work for designers hinges on meeting the needs and preferences of your target audience, not your personal taste. The principle of " You are not designing for you" is universally …………….
+            </div>
+          </div>
+          <div class="arrow-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <path d="M9 18L15 12L9 6" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </div>
+        </div>
+     </a>
+  
+  
+     <a href="https://medium.com/@ugbeborshammah08/think-in-the-mindset-of-a-new-user-not-a-loyal-one-66321703ec82?source=user_profile_page---------0-------------a96075f258ee----------------------" class="article-link">
+      <div class="article-card">
+          <div class="article-content">
+            <div class="article-title">Think in the Mindset of a New User, Not a Loyal One</div>
+            <div class="article-summary">
+              Businesses and product developers often get so caught up in catering to their loyal customers that they forget to view their product from a fresh perspective. Considering user experience from the angle of a new user can lead to significant improvements in onboarding and retention.</div>
+          </div>
+          <div class="arrow-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <path d="M9 18L15 12L9 6" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </div>
+        </div>
+     </a>
+  
+  
+     <a href="https://medium.com/@ugbeborshammah08/ethnical-ai-design-addressing-bias-and-fairness-in-algorithmic-decision-making-ec56cd92f0a7?source=user_profile_page---------3-------------a96075f258ee----------------------" class="article-link">
+      <div class="article-card">
+          <div class="article-content">
+            <div class="article-title">Ethnical AI Design: Addressing Bias and Fairness in Algorithmic Decision-Making.</div>
+            <div class="article-summary">
+              AI systems has come around and completely changed the game in so many industries. From tech, to finance, 
+              even breaking into the health sector. And we do not see AI tools going away anytime soon. </div>
+          </div>
+          <div class="arrow-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <path d="M9 18L15 12L9 6" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </div>
+        </div>
+     </a>
+      
+  
     </div>
+  </section>
+  
+  <!-- CSS for Articles Section - You can put this in your stylesheet -->
+  <style>
+    .articles-section {
+      background-color: #1a1a1a;
+      color: #ffffff;
+      padding: 30px 0;
+      align-items: start;
+      margin-top: 30px;
+    }
     
-    <p class="article-intro">
-      I am passionate about writing on design, career growth, and my personal values. Each piece I write is crafted with care and intention, reflecting my commitment to making a positive impact in the design community and beyond.
-    </p>
+    .articles-container {
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
     
-   <a href="https://medium.com/@ugbeborshammah08/laws-of-ux-but-in-stories-part-1-03e9cd76e17d?source=user_profile_page---------5-------------a96075f258ee----------------------" class="article-card">
-    <div class="article-card">
-        <div class="article-content">
-          <div class="article-title">Laws of UX : But in stories (part 1)</div>
-          <div class="article-summary">
-            A law can be defined as a binding custom or practice of a community, in this case, the UX community.
-            <br><br>
-            We will be talking about some of the laws of UX in this part in the simplest real life stories, that will make you never forget any law of UX again for next time you are designing, are you ready?
-          </div>
-        </div>
-        <div class="arrow-icon">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
-            <path d="M9 18L15 12L9 6" stroke-linecap="round" stroke-linejoin="round"></path>
-          </svg>
-        </div>
-      </div>
-   </a>
+    .article-header h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
     
-   <a href="https://medium.com/@ugbeborshammah08/you-are-not-designing-for-you-b631291eb113?source=user_profile_page---------1-------------a96075f258ee----------------------" class="article-card">
-    <div class="article-card">
-        <div class="article-content">
-          <div class="article-title">You are not designing for you!</div>
-          <div class="article-summary">
-            Do you want your designs to not just be used by your users but loved?
-The success of work for designers hinges on meeting the needs and preferences of your target audience, not your personal taste. The principle of “ You are not designing for you” is universally …………….
-          </div>
-        </div>
-        <div class="arrow-icon">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
-            <path d="M9 18L15 12L9 6" stroke-linecap="round" stroke-linejoin="round"></path>
-          </svg>
-        </div>
-      </div>
-   </a>
-
-
-   <a href="https://medium.com/@ugbeborshammah08/think-in-the-mindset-of-a-new-user-not-a-loyal-one-66321703ec82?source=user_profile_page---------0-------------a96075f258ee----------------------" class="article-card">
-    <div class="article-card">
-        <div class="article-content">
-          <div class="article-title">Think in the Mindset of a New User, Not a Loyal One</div>
-          <div class="article-summary">
-            Businesses and product developers often get so caught up in catering to their loyal customers that they forget to view their product from a fresh perspective. Considering user experience from the angle of a new user can lead to significant improvements in onboarding and retention.</div>
-        </div>
-        <div class="arrow-icon">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
-            <path d="M9 18L15 12L9 6" stroke-linecap="round" stroke-linejoin="round"></path>
-          </svg>
-        </div>
-      </div>
-   </a>
-
-
-   <a href="https://medium.com/@ugbeborshammah08/ethnical-ai-design-addressing-bias-and-fairness-in-algorithmic-decision-making-ec56cd92f0a7?source=user_profile_page---------3-------------a96075f258ee----------------------" class="article-card">
-    <div class="article-card">
-        <div class="article-content">
-          <div class="article-title">Ethnical AI Design: Addressing Bias and Fairness in Algorithmic Decision-Making.</div>
-          <div class="article-summary">
-            AI systems has come around and completely changed the game in so many industries. From tech, to finance, 
-            even breaking into the health sector. And we do not see AI tools going away anytime soon. </div>
-        </div>
-        <div class="arrow-icon">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
-            <path d="M9 18L15 12L9 6" stroke-linecap="round" stroke-linejoin="round"></path>
-          </svg>
-        </div>
-      </div>
-   </a>
+    .article-intro {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
     
-
-  </div>
-</section>
-
-<!-- CSS for Articles Section - You can put this in your stylesheet -->
-<style>
-  .articles-section {
-    background-color: #1a1a1a;
-    color: #ffffff;
-    padding: 30px 0;
-    align-items: start;
-    margin-top: 30px;
-  }
-  
-  .articles-container {
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  .article-header h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .article-intro {
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 30px;
-  }
-  
-  .article-card {
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
-  }
-  
-  .article-card:hover {
-    background-color: rgba(255, 255, 255, 0.15);
-  }
-  
-  .article-content {
-    flex: 1;
-  }
-  
-  .article-title {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  .article-summary {
-    font-size: 14px;
-    color: rgba(255, 255, 255, 0.8);
-    line-height: 1.5;
-  }
-  
-  .arrow-icon {
-    width: 24px;
-    height: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-  }
-  
-  .final-statement {
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 30px;
-    margin-bottom: 15px;
-  }
-
-
-</style>
+    /* Link styling - this is new */
+    .article-link {
+      text-decoration: none;
+      color: inherit; /* Inherits the white color from parent */
+      display: block;
+    }
+    
+    .article-card {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+    
+    .article-card:hover {
+      background-color: rgba(255, 255, 255, 0.15);
+    }
+    
+    .article-content {
+      flex: 1;
+    }
+    
+    .article-title {
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: #ffffff; /* Explicitly setting title color */
+    }
+    
+    .article-summary {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.8);
+      line-height: 1.5;
+    }
+    
+    .arrow-icon {
+      width: 24px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+    
+    .final-statement {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+  </style>
     
     
     
@@ -775,7 +974,7 @@ The success of work for designers hinges on meeting the needs and preferences of
                 <a href="https://www.canva.com/design/DAGhzko-fmU/9fxkQ8WU-bOrHElbWMmEDg/edit?utm_content=DAGhzko-fmU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" aria-current="page" class="_2022navlink w-inline-block w--current">
                     <div class="navlinktext">Resume</div>
                 </a>
-                <a href="about.html" class="_2022navlink w-inline-block">
+                <a href="/about.html" class="_2022navlink w-inline-block">
                     <div class="navlinktext">About</div>
                 </a>
             </div>
@@ -840,20 +1039,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const heroText = document.querySelector('.text-block-69');
     const heroSubText = document.querySelector('.text-block-73');
     
-    if (heroText && heroSubText) {
-        heroText.style.opacity = '0';
-        heroSubText.style.opacity = '0';
-        
-        setTimeout(() => {
-            heroText.style.transition = 'opacity 1.2s ease-in-out';
-            heroText.style.opacity = '1';
-            
-            setTimeout(() => {
-                heroSubText.style.transition = 'opacity 1.2s ease-in-out';
-                heroSubText.style.opacity = '1';
-            }, 600);
-        }, 300);
-    }
+
     
     // Smooth scrolling for arrow down
     const arrow = document.querySelector('.arrow');
@@ -875,6 +1061,7 @@ document.addEventListener('DOMContentLoaded', function() {
             this.style.transform = 'translateY(0)';
         });
     }
+
     
     // --- PROJECTS SECTION ANIMATIONS ---
     // Project cards reveal on scroll
@@ -1076,6 +1263,74 @@ document.addEventListener('DOMContentLoaded', function() {
     backToTopBtn.innerHTML = '↑';
     backToTopBtn.className = 'back-to-top';
     document.body.appendChild(backToTopBtn);
+
+
+    // Testimonial for what people say 
+    // Make sure the script runs after the DOM is fully loaded
+  window.addEventListener('DOMContentLoaded', function() {
+    const container = document.getElementById('testimonialsContainer');
+    const cards = container.querySelectorAll('.testimonial-card');
+    const dotsContainer = document.getElementById('dotsContainer');
+    const dots = dotsContainer.querySelectorAll('.dot');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    
+    let currentIndex = 0;
+    const totalCards = cards.length;
+    
+    // Function to update slider position
+    function updateSlider() {
+      container.style.transform = `translateX(-${currentIndex * 100}%)`;
+      
+      // Update dots
+      dots.forEach((dot, index) => {
+        if (index === currentIndex) {
+          dot.classList.add('active');
+        } else {
+          dot.classList.remove('active');
+        }
+      });
+    }
+    
+    // Previous slide function
+    function prevSlide() {
+      currentIndex = (currentIndex - 1 + totalCards) % totalCards;
+      updateSlider();
+    }
+    
+    // Next slide function
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % totalCards;
+      updateSlider();
+    }
+    
+    // Event listeners
+    prevBtn.addEventListener('click', prevSlide);
+    nextBtn.addEventListener('click', nextSlide);
+    
+    // Add click event to each dot
+    dots.forEach((dot, index) => {
+      dot.addEventListener('click', () => {
+        currentIndex = index;
+        updateSlider();
+      });
+    });
+    
+    // Auto slide every 7 seconds
+    let interval = setInterval(nextSlide, 2000);
+    
+    // Pause auto-slide on hover
+    container.addEventListener('mouseenter', () => {
+      clearInterval(interval);
+    });
+    
+    container.addEventListener('mouseleave', () => {
+      interval = setInterval(nextSlide, 2000);
+    });
+    
+    // Initial update
+    updateSlider();
+  });
     
     // Style the back to top button
     const backToTopStyle = document.createElement('style');
@@ -1511,29 +1766,32 @@ function addSmoothScrolling() {
 
 // Add AOS (Animate On Scroll) effect to elements
 function addScrollAnimations() {
-    const elementsToAnimate = document.querySelectorAll('.project-card, .article-card, .hero-image, .text-block-69, .text-block-73');
+    const elementsToAnimate = document.querySelectorAll('.project-card, .article-card, .text-block-69, .text-block-73');
     
     elementsToAnimate.forEach((el, index) => {
         el.style.opacity = '0';
         el.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
         
-        // Different animation for different elements
-        if (el.classList.contains('hero-image')) {
-            el.style.transform = 'translateY(30px)';
-        } else if (el.classList.contains('text-block-69') || el.classList.contains('text-block-73')) {
-            el.style.transform = 'translateX(-30px)';
-        } else {
-            el.style.transform = 'translateY(50px)';
-        }
-        
-        // Add slight delay based on index for staggered effect
+        // Skip transformation for hero images
+    if (el.classList.contains('hero-image')) {
+        el.style.opacity = '1'; // Make it visible immediately
+        el.style.transform = 'none'; // Don't transform it
+    } else if (el.classList.contains('text-block-69') || el.classList.contains('text-block-73')) {
+        el.style.transform = 'translateX(-30px)';
+    } else {
+        el.style.transform = 'translateY(50px)';
+    }
+    
+    // Only animate non-hero elements
+    if (!el.classList.contains('hero-image')) {
         setTimeout(() => {
             if (isInViewport(el)) {
                 el.style.opacity = '1';
                 el.style.transform = 'translate(0)';
             }
         }, index * 150);
-    });
+    }
+});
 }
 
 // Add responsive navigation menu for mobile
@@ -1873,6 +2131,7 @@ function addThemeToggle() {
         });
     }
 }});
+
 
 </script>
 
